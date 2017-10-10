@@ -5,8 +5,8 @@
 module.exports = (robot) ->
   # respond without mentioning the robot
   robot.hear /hamad/gim, (res) ->
-    res.send "heyyy"
-  
+    res.send "heyyy from heroku"
+
   robot.respond /universe/gim, (res) ->
     res.send "> GitHub is great, and Training Day is greater!!"
 
